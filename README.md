@@ -1,14 +1,18 @@
 # RAG-Model-Based-Analysis-of-Canoo-a-public-company
-Developed a RAG model-based Python script to efficiently gather and analyze data on Canoo, a publicly traded company, utilizing internet search APIs.
-Extracted information on industry analysis, competitor analysis, market trends, and financial performance, contributing to strategic decision-making processes, using libraries ( Pandas, Numpy, Matplotlib, JSON, CSV,scrapy, selenium, beautifulSoup, duckduckgo-search, requests).
+* This project aimed to elevate the performance of Large Language Models (LLMs) within Canoo, a US-based electric vehicle producer, by integrating Retrieval-Augmented Generation (RAG) techniques.
+* Utilizing cutting-edge internet search APIs and custom search engines, the initiative dynamically sourced live, accurate data from a variety of online platforms, including social media and news sites.
+* This approach allowed the LLM to access the most current research, market trends, and industry analysis, enhancing its response accuracy and relevance.
+* By employing a diverse toolkit including Scrapy, Selenium, BeautifulSoup, google-search, and requests, the project significantly contributed to Canoo's strategic decision-making processes, ensuring the LLM remained a potent tool in navigating the rapidly evolving electric vehicle market.
 
-The project entailed utilizing Python programming to gather market research information for an electric vehicle (EV) manufacturing plant, focusing on Canoo, a NASDAQ-listed company. The approach involved a literature study and API exploration, where SerpAPI, Azure, and Google Cloud Platforms were assessed. Challenges arose with SerpAPI's inaccurate search results and data extraction difficulties, prompting a shift to Google's Custom Search Engine (CSE) for improved result relevance and easier data management.
+# Steps Involved:
+1. Identify Data Sources: Selection of internet search APIs and custom search engines for live data extraction.
+2. Tool Selection: Utilize Scrapy, Selenium, BeautifulSoup, google-search, and requests for web scraping and data retrieval.
+3. Data Extraction: Implement scraping scripts to dynamically extract live data from selected sources.
+4. Data Integration: Integrate the extracted data with the LLM, enhancing its knowledge base with up-to-date information.
+5. RAG Implementation: Develop and apply RAG techniques to augment LLM prompts with relevant, live data for improved response generation.
+6. Continuous Update Mechanism: Establish a system for the asynchronous update of external data sources to maintain the freshness of the information.
+7. Testing and Optimization: Conduct thorough testing to refine the integration and ensure optimal performance of the augmented LLM.
+8. Strategic Application: Leverage the enhanced LLM for strategic decision-making, including industry analysis, competitor analysis, and market trend insights.
 
-The main steps included:
-1. Literature Study and API Exploration: Evaluating different APIs for extracting search results.
-2. Customized Search Engine Setup: Transitioning to Google CSE after initial challenges with SerpAPI.
-3. Extraction of JSON File: Obtaining search results in JSON format for analysis.
-4. Conversion of JSON to CSV: Isolating and converting the necessary JSON data into a CSV file for further use.
 
 
-Challenges included SerpAPI's insufficient search result accuracy and the complexity of aggregating data from various queries. These were overcome by switching to Google CSE for more precise search capabilities and handling one query at a time to ensure data clarity.
