@@ -1,4 +1,4 @@
-# RAG-Model-Based-Analysis-of-Canoo-a-public-company
+# Enhancing LLM Accuracy with Live Data Integration: A RAG Initiative for Canoo (US Based EV Producer)
 * This project aimed to elevate the performance of Large Language Models (LLMs) within Canoo, a US-based electric vehicle producer, by integrating Retrieval-Augmented Generation (RAG) techniques.
 * Utilizing cutting-edge internet search APIs and custom search engines, the initiative dynamically sourced live, accurate data from a variety of online platforms, including social media and news sites.
 * This approach allowed the LLM to access the most current research, market trends, and industry analysis, enhancing its response accuracy and relevance.
